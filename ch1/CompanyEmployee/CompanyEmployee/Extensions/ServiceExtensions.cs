@@ -1,7 +1,14 @@
-﻿namespace CompanyEmployee.Extensions
+﻿using Contracts;
+using LoggerService;
+
+namespace CompanyEmployee.Extensions
 {
     public static class ServiceExtensions
     {
+        public static void ConfigureLoggerService(this IServiceCollection services)
+        {
+            services.AddSingleton<IloggerManager, LoggerManager>();
+        }
         public static void ConfigureCors(this IServiceCollection services)
         {
             services.AddCors(options =>
