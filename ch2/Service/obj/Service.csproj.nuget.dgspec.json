@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj": {}
+    "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj": {
+    "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\obj\\",
+        "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\trans\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,17 +59,17 @@
         }
       }
     },
-    "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj": {
+    "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj",
-        "packagesPath": "C:\\Users\\nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\obj\\",
+        "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj",
+        "packagesPath": "C:\\Users\\trans\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,17 +114,17 @@
         }
       }
     },
-    "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj": {
+    "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\nguyen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\obj\\",
+        "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\trans\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,11 +138,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj"
+              "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj"
+              "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }

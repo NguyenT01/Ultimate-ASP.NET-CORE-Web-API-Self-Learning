@@ -1,0 +1,12 @@
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\bin\Debug\net8.0\Service.Contracts.deps.json
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\bin\Debug\net8.0\Service.Contracts.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\bin\Debug\net8.0\Service.Contracts.pdb
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.AssemblyInfoInputs.cache
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.AssemblyInfo.cs
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.csproj.CoreCompileInputs.cache
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.sourcelink.json
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\refint\Service.Contracts.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\Service.Contracts.pdb
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service.Contracts\obj\Debug\net8.0\ref\Service.Contracts.dll

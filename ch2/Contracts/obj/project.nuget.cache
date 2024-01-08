@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WQKB0fetUhyQ+cPQ1sV7pLegcsr82Xy9Lx5eMOgjwXBOfjgwfRRKbNq1VvteaMSLtHlfnL4Pcvxo0rwOKMl9Dw==",
+  "dgSpecHash": "F8rRU3MMMHNiw9lZEA5yC8Ko3KBSsnAKv0g8v2BUGS0JZgXC9u/YWp5xOQXRWNGlTESO27cprnlZRrc5a+1tLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj",
+  "projectFilePath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

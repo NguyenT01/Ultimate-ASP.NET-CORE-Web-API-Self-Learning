@@ -10,3 +10,15 @@ C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\refint\Entities.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.pdb
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\ref\Entities.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\bin\Debug\net8.0\Entities.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\bin\Debug\net8.0\Entities.pdb
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.sourcelink.json
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\Entities.pdb
+D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Entities\obj\Debug\net8.0\ref\Entities.dll
