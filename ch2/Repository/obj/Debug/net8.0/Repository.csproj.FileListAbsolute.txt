@@ -32,3 +32,7 @@ D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\obj\Debug\n
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\obj\Debug\net8.0\refint\Repository.dll
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\obj\Debug\net8.0\Repository.pdb
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\bin\Debug\net8.0\Contracts.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\bin\Debug\net8.0\Contracts.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache

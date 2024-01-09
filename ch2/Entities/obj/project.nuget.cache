@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dX1rSBqAeS8JbFmFHketDjZ3zClMNC2vbFxR/sf/yacAiiMfclPouqE3P0Y3IDflWER5Aw6YsSZ0F6eMDXkuWA==",
+  "dgSpecHash": "CAODXj2LamF/3vZyeNqN3GJuQLm5spdqyAPnHOIHHdnmewf645wCM42Y2lS0sCiynVcI02rgG99K4itHvhwC1w==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

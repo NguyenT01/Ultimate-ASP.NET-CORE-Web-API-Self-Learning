@@ -166,11 +166,24 @@
       "Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Contracts.dll": {}
         },
         "runtime": {
           "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
         }
       }
     }
@@ -507,6 +520,11 @@
       "type": "project",
       "path": "../Contracts/Contracts.csproj",
       "msbuildProject": "../Contracts/Contracts.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -516,19 +534,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trans\\.nuget\\packages\\": {}
+    "C:\\Users\\nguyen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\LoggerService\\LoggerService.csproj",
+      "projectUniqueName": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\LoggerService\\LoggerService.csproj",
       "projectName": "LoggerService",
-      "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\LoggerService\\LoggerService.csproj",
-      "packagesPath": "C:\\Users\\trans\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\LoggerService\\obj\\",
+      "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\LoggerService\\LoggerService.csproj",
+      "packagesPath": "C:\\Users\\nguyen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\LoggerService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\trans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -542,8 +560,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\Github\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj"
+            "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Contracts\\Contracts.csproj"
             }
           }
         }

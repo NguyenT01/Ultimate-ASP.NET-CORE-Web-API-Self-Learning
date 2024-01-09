@@ -288,3 +288,14 @@ D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\Compan
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\obj\Debug\net8.0\CompanyEmployee.pdb
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\obj\Debug\net8.0\CompanyEmployee.genruntimeconfig.cache
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\obj\Debug\net8.0\ref\CompanyEmployee.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\CompanyEmployees.Presentation.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Service.Contracts.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Service.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\CompanyEmployees.Presentation.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Service.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Service.Contracts.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\obj\Debug\net8.0\CompanyEmployee.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Shared.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Shared.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
