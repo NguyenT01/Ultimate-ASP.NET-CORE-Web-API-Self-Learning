@@ -15,14 +15,14 @@ public class CompaniesController : ControllerBase
     [HttpGet]
     public IActionResult GetCompanies()
     {
-        try
-        {
-            var companies = _service.CompanyService.GetAllCompanies(false);
-            return Ok(companies);
-        }
-        catch
-        {
-            return StatusCode(500, "Internal Server error");
-        }
+        var companies = _service.CompanyService.GetAllCompanies(false);
+        return Ok(companies);
+    }
+
+    [HttpGet("{id:guid}")]
+    public IActionResult GetCompany(Guid id)
+    {
+        var company = _service.CompanyService.GetCompany(id, false);
+        return Ok(company);
     }
 }
