@@ -3,6 +3,7 @@ using Contracts;
 using Service.Contracts;
 using AutoMapper;
 using Entities.Exceptions;
+using Entities.Models;
 
 namespace Service;
 internal sealed class CompanyService : ICompanyService
@@ -36,5 +37,16 @@ internal sealed class CompanyService : ICompanyService
 
         var companyDto = _mapper.Map<CompanyDto>(company);
         return companyDto;
+    }
+    public CompanyDto CreateCompany(CompanyForCreationDto company)
+    {
+        var companyEntity = _mapper.Map<Company>(company);
+        _logger.LogWarn(companyEntity.Employees!.ToString()!);
+
+        _repository.Company.CreateCompany(companyEntity);
+        _repository.Save();
+
+        var companyToReturn = _mapper.Map<CompanyDto>(companyEntity);
+        return companyToReturn;
     }
 }

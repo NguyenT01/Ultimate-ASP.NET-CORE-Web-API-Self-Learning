@@ -19,7 +19,7 @@ namespace Entities.Models
         [MaxLength(20, ErrorMessage ="Maximum length for the Position is 20 chars")]
         public string? Position { get; set; }
 
-        [ForeignKey(nameof(Company))]
+        [ForeignKey(nameof(CompanyId))]
         public Guid CompanyId { get; set; }
         public Company? Company { get; set; }
 
