@@ -20,10 +20,9 @@ public class MappingProfile : Profile
         {
             opts.Condition((src, dest, srcMember) => srcMember != null);
         });
-        CreateMap<CompanyForUpdateDto, Company>()
-            .ForAllMembers(opts =>
-            {
-                opts.Condition((src, dest, srcMemeber) => srcMemeber != null);
-            });
+        CreateMap<CompanyForUpdateDto, Company>().ForAllMembers(opts =>
+        {
+            opts.Condition((src, dest, srcMember) => srcMember != null);
+        });
     }
 }
