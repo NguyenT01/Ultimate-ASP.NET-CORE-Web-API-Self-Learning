@@ -40,4 +40,21 @@ public class EmployeesController : ControllerBase
         return CreatedAtRoute("GetEmployeeForCompany",
             new { companyId, id = employeeToReturn.Id }, employeeToReturn);
     }
+    [HttpDelete("{id:guid}")]
+    public IActionResult DeleteEmployeeForCompany(Guid companyId, Guid id)
+    {
+        _service.EmployeeService.DeleteEmployee(companyId, id, false);
+
+        return NoContent();
+    }
+
+    [HttpPut("{id:guid}")]
+    public IActionResult UpdateEmployeeForCompany(Guid companyId, Guid id, [FromBody] EmployeeForUpdateDto employee)
+    {
+        if (employee is null)
+            return BadRequest("EmployeeForUpdateDto is null");
+
+        _service.EmployeeService.UpdateEmployeeForCompany(companyId, id, employee, false, true);
+        return NoContent();
+    }
 }

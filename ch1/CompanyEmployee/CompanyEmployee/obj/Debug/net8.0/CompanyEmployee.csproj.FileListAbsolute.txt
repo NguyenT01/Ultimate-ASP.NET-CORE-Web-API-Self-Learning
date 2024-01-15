@@ -299,3 +299,7 @@ C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Shared.pdb
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

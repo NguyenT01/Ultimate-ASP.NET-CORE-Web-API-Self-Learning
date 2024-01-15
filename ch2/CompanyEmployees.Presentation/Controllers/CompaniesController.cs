@@ -50,4 +50,21 @@ public class CompaniesController : ControllerBase
         var result = _service.CompanyService.CreateCompanyCollection(companyCollection);
         return CreatedAtRoute("CompanyCollection", new { result.ids }, result.companies);
     }
+    [HttpDelete("{id:guid}")]
+    public IActionResult DeleteCompany(Guid id)
+    {
+        _service.CompanyService.DeleteCompany(id, false);
+        return NoContent();
+    }
+
+    [HttpPut("{id:guid}")]
+    public IActionResult UpdateCompany(Guid id, [FromBody] CompanyForUpdateDto company)
+    {
+        if (company is null)
+            return BadRequest("CompanyForUpdateDto object is null");
+
+        _service.CompanyService.UpdateCompany(id, company, true);
+
+        return NoContent();
+    }
 }
