@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
 using Service.Contracts;
+using System.Diagnostics;
 
 namespace CompanyEmployee.Extensions
 {
@@ -42,8 +43,12 @@ namespace CompanyEmployee.Extensions
         }
         public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration)
         {
+            string? MachineName = Environment.MachineName;
+            string? ConnectionString = configuration.GetConnectionString("sqlConnection");
+            ConnectionString = ConnectionString!.Replace("??????", MachineName);
+
             services.AddDbContext<RepositoryContext>(opts
-                => opts.UseSqlServer(configuration.GetConnectionString("sqlConnection")));
+                => opts.UseSqlServer(ConnectionString));
         }
 
         public static IMvcBuilder AddCustomCSVFormatter(this IMvcBuilder builder)
