@@ -34,6 +34,10 @@ public class EmployeesController : ControllerBase
         if (employee is null)
             return BadRequest("EmployeeForCreationDto is null");
 
+        // Gọi ModelState.IsValid để tùy chỉnh các việc thực hiện sau khi Validate Model
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
+
         var employeeToReturn = _service.EmployeeService.CreateEmployeeForCompany(companyId,
             employee, false);
 
@@ -53,6 +57,8 @@ public class EmployeesController : ControllerBase
     {
         if (employee is null)
             return BadRequest("EmployeeForUpdateDto is null");
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
 
         _service.EmployeeService.UpdateEmployeeForCompany(companyId, id, employee, false, true);
         return NoContent();

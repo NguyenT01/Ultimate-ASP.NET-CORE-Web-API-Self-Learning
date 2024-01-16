@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Entities.CustomValidator;
 
 namespace Entities.Models
 {
@@ -16,6 +17,7 @@ namespace Entities.Models
         [MaxLength(60, ErrorMessage = "Maximum length for the Address is 60 characters")]
         public string? Address { get; set; }
 
+        [CountryValidator(ErrorMessage ="This country is banned from our Program")]
         public string? Country { get; set; } 
         public ICollection<Employee>? Employees { get; set; }
 
