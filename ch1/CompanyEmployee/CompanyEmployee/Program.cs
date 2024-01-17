@@ -1,3 +1,4 @@
+using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployee.Extensions;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -7,6 +8,7 @@ using NLog;
 var builder = WebApplication.CreateBuilder(args);
 
 LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
+
 
 builder.Services.AddAutoMapper(typeof(Program));
 
@@ -22,6 +24,8 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = true;
 });
 
+//
+builder.Services.AddScoped<ValidationFilterAttribute>();
 
 builder.Services.AddControllers(config =>
 {

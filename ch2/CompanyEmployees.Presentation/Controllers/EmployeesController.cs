@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CompanyEmployees.Presentation.ActionFilters;
+using Microsoft.AspNetCore.Mvc;
 using Service.Contracts;
 using Shared.DataTransferObjects;
 
@@ -28,16 +29,10 @@ public class EmployeesController : ControllerBase
     }
 
     [HttpPost]
+    [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> CreateEmployeeForCompany(Guid companyId, 
         [FromBody] EmployeeForCreationDto employee)
     {
-        if (employee is null)
-            return BadRequest("EmployeeForCreationDto is null");
-
-        // Gọi ModelState.IsValid để tùy chỉnh các việc thực hiện sau khi Validate Model
-        if (!ModelState.IsValid)
-            return UnprocessableEntity(ModelState);
-
         var employeeToReturn = await _service.EmployeeService.CreateEmployeeForCompanyAsync(companyId,
             employee, false);
 
@@ -48,18 +43,13 @@ public class EmployeesController : ControllerBase
     public async Task<IActionResult> DeleteEmployeeForCompany(Guid companyId, Guid id)
     {
         await _service.EmployeeService.DeleteEmployeeAsync(companyId, id, false);
-
         return NoContent();
     }
 
     [HttpPut("{id:guid}")]
+    [ServiceFilter(typeof(ValidationFilterAttribute))]
     public async Task<IActionResult> UpdateEmployeeForCompany(Guid companyId, Guid id, [FromBody] EmployeeForUpdateDto employee)
     {
-        if (employee is null)
-            return BadRequest("EmployeeForUpdateDto is null");
-        if (!ModelState.IsValid)
-            return UnprocessableEntity(ModelState);
-
         await _service.EmployeeService.UpdateEmployeeForCompanyAsync(companyId, id, employee, false, true);
         return NoContent();
     }
