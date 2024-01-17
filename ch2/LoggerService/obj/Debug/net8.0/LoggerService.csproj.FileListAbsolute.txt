@@ -32,3 +32,5 @@ D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\LoggerService\obj\Debu
 D:\Github\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\LoggerService\obj\Debug\net8.0\ref\LoggerService.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\LoggerService\bin\Debug\net8.0\Entities.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\LoggerService\bin\Debug\net8.0\Entities.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\LoggerService\bin\Debug\net8.0\Shared.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\LoggerService\bin\Debug\net8.0\Shared.pdb

@@ -20,9 +20,11 @@ namespace CompanyEmployee.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.AllowAnyOrigin();
-                    builder.AllowAnyHeader();
-                    builder.AllowAnyMethod();
+                    builder.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .WithExposedHeaders("X-Pagination");
+                    
                 });
             });
         }

@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Entities\\Entities.csproj"
+              },
+              "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Shared\\Shared.csproj"
               }
             }
           }
