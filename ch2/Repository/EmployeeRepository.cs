@@ -3,6 +3,7 @@ using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Shared.RequestFeatures;
 using System.Linq;
+using Repository.Extensions;
 
 namespace Repository
 {
@@ -14,15 +15,12 @@ namespace Repository
             EmployeeParameters employeeParameters, bool trackChanges)
         {
             var employees = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
-                .OrderBy(e => e.Name)
-                .Skip((employeeParameters.PageNumber - 1) * employeeParameters.PageSize)
-                .Take(employeeParameters.PageSize)
+                .FilterEmployees(employeeParameters.MinAge, employeeParameters.MaxAge)
+                .Search(employeeParameters.SearchTerm)
+                .Sort(employeeParameters.OrderBy)
                 .ToListAsync();
 
-            var count = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
-                .CountAsync();
-
-            return new PageList<Employee>(employees, count, employeeParameters.PageNumber,
+            return PageList<Employee>.ToPagedList(employees, employeeParameters.PageNumber,
                 employeeParameters.PageSize);
         }
         public async Task<Employee> GetEmployeeAsync(Guid companyId, Guid id, bool trackChanges)

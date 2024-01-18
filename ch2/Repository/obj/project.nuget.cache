@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G2cXTL5EnBm4eB1r4vK78W4/nooibmPVmmXYkgfc1hLscnjBXwCMRuyQb+IisWkeIr85t8C75vqJnRzeqZQKUg==",
+  "dgSpecHash": "Oz44K25X6yq2zyWJH8+rcohjiMHA3cyj/pUEq9tw6OyfDfoXqblD/Jo6lJlcV0agj9WF6qLGeNCflJXWJqzARg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\nguyen\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\nguyen\\.nuget\\packages\\system.linq.dynamic.core\\1.3.7\\system.linq.dynamic.core.1.3.7.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
