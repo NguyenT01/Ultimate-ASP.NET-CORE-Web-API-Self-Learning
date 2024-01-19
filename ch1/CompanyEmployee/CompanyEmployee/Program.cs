@@ -4,8 +4,6 @@ using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
-using Service.DataShaping;
-using Shared.DataTransferObjects;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +18,6 @@ builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
-builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
-
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
