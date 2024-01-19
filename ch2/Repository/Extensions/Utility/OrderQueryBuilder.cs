@@ -14,7 +14,7 @@ public static class OrderQueryBuilder
         var orderParams = orderByQueryString.Trim().Split(',');
 
         // lấy các biến Instance và quyền truy cập Public trong <Model>
-        var propertyInfos = typeof(Employee).GetProperties(BindingFlags.Public | BindingFlags.Instance);
+        var propertyInfos = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
 
         // Tạo 1 QueryBuilder
         var orderQueryBuilder = new StringBuilder();

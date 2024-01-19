@@ -5,6 +5,7 @@ using Contracts;
 using Entities.Models;
 using Service.Contracts;
 using Shared.RequestFeatures;
+using System.Dynamic;
 
 namespace Service;
 
@@ -13,14 +14,17 @@ internal sealed class EmployeeService : IEmployeeService
     private readonly IRepositoryManager _repository;
     private readonly IloggerManager _logger;
     private readonly IMapper _mapper;
-    public EmployeeService(IRepositoryManager repository, IloggerManager logger, IMapper mapper)
+    private readonly IDataShaper<EmployeeDto> _dataShaper;
+
+    public EmployeeService(IRepositoryManager repository, IloggerManager logger, IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
     {
         _repository = repository;
         _logger = logger;
         _mapper = mapper;
+        _dataShaper = dataShaper;
     }
 
-    public async Task<(IEnumerable<EmployeeDto> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, 
+    public async Task<(IEnumerable<ExpandoObject> employees, MetaData metaData)> GetEmployeesAsync(Guid companyId, 
         EmployeeParameters employeeParameters, bool trackChanges)
     {
         if (!employeeParameters.ValidaAgeRange)
@@ -33,7 +37,9 @@ internal sealed class EmployeeService : IEmployeeService
 
         var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesWithMetaData);
 
-        return (employeesDto, employeesWithMetaData.MetaData);
+        var shapedData = _dataShaper.ShapeData(employeesDto, employeeParameters.Fields!);
+        return (employees: shapedData, metaData: employeesWithMetaData.MetaData);
+
     }
 
     public async Task<EmployeeDto> GetEmployeeAsync(Guid companyId, Guid id, bool trackChanges)
