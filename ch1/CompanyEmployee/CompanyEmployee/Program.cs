@@ -4,6 +4,7 @@ using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
+using AspNetCoreRateLimit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,10 @@ LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlo
 
 
 builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddMemoryCache();
+builder.Services.ConfigureRateLimitingOptions();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
@@ -49,6 +54,8 @@ if (app.Environment.IsProduction())
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
+
+app.UseIpRateLimiting();
 app.UseCors("CorsPolicy");
 app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
