@@ -24,5 +24,7 @@ public class MappingProfile : Profile
         {
             opts.Condition((src, dest, srcMember) => srcMember != null);
         });
+        CreateMap<UserForRegistrationDto, User>();
+
     }
 }
