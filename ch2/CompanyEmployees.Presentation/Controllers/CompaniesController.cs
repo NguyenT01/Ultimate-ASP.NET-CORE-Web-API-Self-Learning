@@ -33,12 +33,13 @@ public class CompaniesController : ControllerBase
     public async Task<IActionResult> CreateCompany([FromBody] CompanyForCreationDto company)
     {
         var createdCompany = await _service.CompanyService.CreateCompanyAsync(company);
-        return CreatedAtRoute("CompanyById", new { id = createdCompany.Id },
+        // EF => ID, Dapper => CompanyId
+        return CreatedAtRoute("CompanyById", new { id = createdCompany.CompanyId },
         createdCompany);
     }
 
     [HttpGet("collection/{ids}", Name = "CompanyCollection")]
-    public async Task<IActionResult> GetCompanyCollection([ModelBinder(BinderType =typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
+    public async Task<IActionResult> GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids)
     {
         var companies = await _service.CompanyService.GetByIdsAsync(ids, false);
         return Ok(companies);

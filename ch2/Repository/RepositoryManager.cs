@@ -2,7 +2,7 @@
 
 namespace Repository;
 
-public class RepositoryManager: IRepositoryManager
+public class RepositoryManager : IRepositoryManager
 {
     // REPOSITORY CONTEXT
     private readonly RepositoryContext _repositoryContext;
@@ -22,7 +22,7 @@ public class RepositoryManager: IRepositoryManager
     // HÀM GETTER REPOSITORY CỦA TỪNG ĐỐI TƯỢNG
     public ICompanyRepository Company => _companyRepository.Value;
     public IEmployeeRepository Employee => _employeeRepository.Value;
-    
+
     // IMPLEMENT PHƯƠNG THỨC SAVE() ĐỂ LƯU CÁC THAY ĐỔI
     public async Task SaveAsync()
         => await _repositoryContext.SaveChangesAsync();

@@ -1,13 +1,14 @@
 ﻿using AspNetCoreRateLimit;
 using Contracts;
+using Contracts.Dapper;
 using Entities.Models;
 using LoggerService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Repository;
+using Repository.Dapper;
 using Service;
 using Service.Contracts;
-using System.Diagnostics;
 
 namespace CompanyEmployee.Extensions
 {
@@ -35,12 +36,12 @@ namespace CompanyEmployee.Extensions
                 new RateLimitRule
                 {
                     Endpoint = "*",
-                    Limit = 3,
+                    Limit = 50,
                     Period = "5m"
                 }
             };
 
-            services.Configure<IpRateLimitOptions>(opt=> opt.GeneralRules = rateLimitRules);
+            services.Configure<IpRateLimitOptions>(opt => opt.GeneralRules = rateLimitRules);
             services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
             services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
             services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
@@ -61,7 +62,7 @@ namespace CompanyEmployee.Extensions
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .WithExposedHeaders("X-Pagination");
-                    
+
                 });
             });
         }
@@ -88,6 +89,10 @@ namespace CompanyEmployee.Extensions
 
             services.AddDbContext<RepositoryContext>(opts
                 => opts.UseSqlServer(ConnectionString));
+        }
+        public static void ConfigureDapperSqlContext(this IServiceCollection services)
+        {
+            services.AddSingleton<IDapperManager, DapperManager>();
         }
 
         public static IMvcBuilder AddCustomCSVFormatter(this IMvcBuilder builder)

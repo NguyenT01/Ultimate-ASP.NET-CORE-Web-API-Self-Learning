@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "g8yBYltPKXEjrrussab/MKaToPxWthNMN0rbEyGChqJvY9D8l/2hQ9mSYWuFJ9n8Ql9fRykFsuq88mdpGNq80g==",
+  "dgSpecHash": "XqGKRUdJpciF88AkeowM1BMd5LqwdkCgflJxQ5ONQ2+c+NAPj6J45KBU5+6r/IfqWkqMDcYhz2nU4MDbRUN1IQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguyen\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\nguyen\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

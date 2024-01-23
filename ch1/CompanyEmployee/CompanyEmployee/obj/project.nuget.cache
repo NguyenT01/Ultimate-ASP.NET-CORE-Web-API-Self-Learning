@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H/uJ2MLY91eM1RlBNI/wOSFWJJXuOBVueClpfS8YsmOLkDAU2m3uSdsZ9PGET80xE6br+R8PwcjftgU8AXZmwA==",
+  "dgSpecHash": "nl66e+ZyFzwaJZGPwLk++H16qUjoQmEzhGIGo9ibds2XH1IDoZEBQ1D/giVSwrI7c9NUBBUCaI8SyLTQKYTNTg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch1\\CompanyEmployee\\CompanyEmployee\\CompanyEmployee.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\nguyen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\nguyen\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

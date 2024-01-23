@@ -1,9 +1,8 @@
 ﻿using Contracts;
 using Entities.Models;
 using Microsoft.EntityFrameworkCore;
-using Shared.RequestFeatures;
-using System.Linq;
 using Repository.Extensions;
+using Shared.RequestFeatures;
 
 namespace Repository
 {
@@ -11,7 +10,7 @@ namespace Repository
     {
         public EmployeeRepository(RepositoryContext context) : base(context) { }
 
-        public async Task<PageList<Employee>> GetEmployeesAsync(Guid companyId, 
+        public async Task<PageList<Employee>> GetEmployeesAsync(Guid companyId,
             EmployeeParameters employeeParameters, bool trackChanges)
         {
             var employees = await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Contracts;
+using Contracts.Dapper;
 using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -13,12 +14,11 @@ public sealed class ServiceManager : IServiceManager
     private readonly Lazy<IEmployeeService> _employeeService;
     private readonly Lazy<IAuthenticationService> _authenticationService;
 
-    public ServiceManager(IRepositoryManager repositoryManager, IloggerManager logger, IMapper mapper,
+    public ServiceManager(IRepositoryManager repositoryManager, IDapperManager dapper, IloggerManager logger, IMapper mapper,
         UserManager<User> userManager, IConfiguration configuration)
     {
-        _companyService = new Lazy<ICompanyService>(() => new CompanyService(repositoryManager, logger, mapper));
+        _companyService = new Lazy<ICompanyService>(() => new CompanyService(repositoryManager, dapper, logger, mapper));
         _employeeService = new Lazy<IEmployeeService>(() => new EmployeeService(repositoryManager, logger, mapper));
-        ));
         _authenticationService = new Lazy<IAuthenticationService>(() => new AuthenticationService(logger, mapper, userManager,
                     configuration));
     }

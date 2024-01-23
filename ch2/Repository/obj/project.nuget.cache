@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+Xl9Ova0rmf3mRvgbgRaldrrAlriQycYJN3WEadjOBJYTLTRhfPpUvO65pwPB5eMf695adBFuJr35uJjeogd2A==",
+  "dgSpecHash": "03xi4xJQaY1KQZgQ0F2crNNP5k176UQgZTs8/uMUTSSP4FlBOqnYlAlPYuEjWmFIpJvluO7/O02bKxkMZEkHMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\nguyen\\source\\self_learning\\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\\ch2\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguyen\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\nguyen\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.0\\microsoft.aspnetcore.cryptography.internal.8.0.0.nupkg.sha512",
     "C:\\Users\\nguyen\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.0\\microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",

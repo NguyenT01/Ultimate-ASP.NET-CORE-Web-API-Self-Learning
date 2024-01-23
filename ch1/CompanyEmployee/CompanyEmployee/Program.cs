@@ -1,14 +1,14 @@
-using CompanyEmployees.Presentation.ActionFilters;
+using AspNetCoreRateLimit;
 using CompanyEmployee.Extensions;
+using CompanyEmployees.Presentation.ActionFilters;
 using Contracts;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
-using AspNetCoreRateLimit;
 
 var builder = WebApplication.CreateBuilder(args);
 
-LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
+LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
 
 
 builder.Services.AddAutoMapper(typeof(Program));
@@ -26,6 +26,7 @@ builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.ConfigureDapperSqlContext();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {

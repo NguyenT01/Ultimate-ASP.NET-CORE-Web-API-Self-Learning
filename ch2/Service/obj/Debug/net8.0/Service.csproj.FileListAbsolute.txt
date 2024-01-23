@@ -38,3 +38,5 @@ C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service\obj\Debug\net8.0\ref\Service.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service\bin\Debug\net8.0\Shared.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service\bin\Debug\net8.0\Shared.pdb
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service\bin\Debug\net8.0\Repository.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch2\Service\bin\Debug\net8.0\Repository.pdb

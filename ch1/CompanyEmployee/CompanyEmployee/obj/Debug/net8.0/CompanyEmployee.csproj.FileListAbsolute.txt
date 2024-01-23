@@ -303,3 +303,4 @@ C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\AspNetCoreRateLimit.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\nguyen\source\self_learning\Ultimate-ASP.NET-CORE-Web-API-Self-Learning\ch1\CompanyEmployee\CompanyEmployee\bin\Debug\net8.0\Dapper.dll
