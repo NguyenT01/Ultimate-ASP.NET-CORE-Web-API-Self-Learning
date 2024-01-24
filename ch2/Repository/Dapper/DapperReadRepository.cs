@@ -39,4 +39,13 @@ public class DapperReadRepository : DapperContext, IDapperReadRepository
             return await connection.QuerySingleAsync<T>(query, condition);
         }
     }
+
+    //Use Count or Sum
+    public async Task<dynamic?> ExecuteScalaAsync<T>(string query, object? condition)
+    {
+        using (var connection = CreateConnection())
+        {
+            return await connection.ExecuteScalarAsync<T>(query, condition);
+        }
+    }
 }

@@ -138,12 +138,22 @@ internal sealed class CompanyService : ICompanyService
     }
     public async Task DeleteCompanyAsync(Guid companyId, bool trackChanges)
     {
+        var company = await _dapper.Read.FindByConditionSingle<CompanyDto1>(
+            "SELECT * FROM Companies WHERE Companies.CompanyId = @id", new { id = companyId });
+
+        if (company is null)
+            throw new CompanyNotFoundException(companyId);
+
+        await _dapper.Delete.DeleteItem("DELETE FROM Companies WHERE CompanyId LIKE @id", new { id = companyId });
+
+        /*
         var company = await GetCompanyAndCheckIfExists(companyId, trackChanges);
 
         _repository.Company.DeleteCompany(company);
         await _repository.SaveAsync();
-
+        */
     }
+
     public async Task UpdateCompanyAsync(Guid companyId, CompanyForUpdateDto companyForUpdate, bool trackChanges)
     {
         var company = await GetCompanyAndCheckIfExists(companyId, trackChanges);
